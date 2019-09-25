@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="https://avatars0.githubusercontent.com/u/48420063?s=460&v=4">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+        
     </head>
     <body>
         <header>
@@ -23,16 +26,17 @@
             <h1>Contact Us</h1>
             <form>
                 <label>Name</label>
-                <input type="text" name="text">
+                <input type="text" name="text" id="senderName">
                 <label>Email</label>
-                <input type="email" name="email">
+                <input type="email" name="email" id="senderEmail">
                 <label>Message</label>
-                <textarea rows="10" cols="50"></textarea>
-                <input type="submit" value="Submit" class="contactSubmitBtn">
+                <textarea rows="10" cols="50" id="senderMessage"></textarea>
+                <button type="submit" value="Submit" class="contactSubmitBtn" id="submit">Submit</button>
             </form>
         </main>
         <footer>
             Copyright © 
         </footer>
+        <script src="assets/javascript/contact.js"></script>
     </body>
 </html>
