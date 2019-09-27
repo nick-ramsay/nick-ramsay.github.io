@@ -195,7 +195,7 @@ fieldset {
 .welcome-image-area {
     position: relative;
     height: 100%;
-    background: url(../images/bg/bg.jpg);
+    background: url(../images/bg/acadia_footpath.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -597,6 +597,7 @@ fieldset {
 
 .work-inner .mix {
     display: none;
+    max-height: 300px;
 }
 
 ul.work {
