@@ -10,6 +10,11 @@ function sendEmail() {
         Subject: $("#subject").val(),
         Body: $("#message").val()
     }).then(
-        message => alert(message)
+        message =>
+        console.log(message),
+        $("#name").val(''),
+        $("#email").val(''),
+        $("#subject").val(''),
+        $("#message").val('')
     );
 }

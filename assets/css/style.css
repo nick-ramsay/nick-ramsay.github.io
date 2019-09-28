@@ -75,6 +75,22 @@ a:focus {
     text-decoration: none;
 }
 
+#cv {
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #000;
+    font-weight: bold;
+    justify-content: center
+}
+
+#cv:hover {
+    color: #cd7f32;
+}
+
+
 p {
     line-height: 32px;
 }
