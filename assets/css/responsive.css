@@ -47,6 +47,13 @@ Version      : 1.0
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    p {
+        line-height: 1.4;
+    }
+    .work figure.effect-ruby h2 {
+        margin-top: 0;
+    }
+
     .site-header .navbar-collapse {
         opacity: 1;
         visibility: visible;
