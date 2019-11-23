@@ -161,28 +161,30 @@ figure.effect-ruby {
 	background-color: #000;
 }
 
-figure.effect-ruby img {
+figure.effect-ruby:hover img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
+	opacity:0.25;
 }
 
-figure.effect-ruby:hover img {
+figure.effect-ruby img {
 	opacity: 0.5;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
 
-figure.effect-ruby h2 {
+/*
+figure.effect-ruby:hover h2 {
 	margin-top: 20%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
-}
+}*/
 
-figure.effect-ruby p {
+/*figure.effect-ruby:hover p {
 	margin: 1em 0 0;
 	padding: 3em;
 	border: 1px solid #fff;
@@ -191,14 +193,15 @@ figure.effect-ruby p {
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0) scale(1.1);
 	transform: translate3d(0,20px,0) scale(1.1);
-} 
+}
+*/
 
-figure.effect-ruby:hover h2 {
+figure.effect-ruby h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 
-figure.effect-ruby:hover p {
+figure.effect-ruby p {
 	opacity: 1;
 	-webkit-transform: translate3d(0,0,0) scale(1);
 	transform: translate3d(0,0,0) scale(1);

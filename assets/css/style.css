@@ -75,7 +75,7 @@ a:focus {
     text-decoration: none;
 }
 
-#cv {
+#cv, .contactLinks {
     text-decoration: none;
     text-align: center;
     -webkit-transition: all 0.4s;
@@ -86,7 +86,7 @@ a:focus {
     justify-content: center
 }
 
-#cv:hover {
+#cv:hover, .contactLinks:hover {
     color: #cd7f32;
 }
 
@@ -683,7 +683,7 @@ ul.work li.active {
 
 .work figure.effect-ruby h2 {
     margin-top: 20%;
-    opacity: 0;
+    opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     font-size: 30px;
     text-transform: uppercase;
@@ -708,12 +708,31 @@ ul.work li.active {
     margin-right: 5px;
 }
 
-.work .item:hover figure.effect-ruby h2 {
+.linkBtn {
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    border: white solid 2px;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.linkBtn:hover {
+    color: #cd7f32;
+    border-color: #cd7f32; 
+
+/*.work .item:hover figure.effect-ruby h2 {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     -webkit-transition: .3s;
     transition: .3s;
-}
+}*/
 
 
 /*
