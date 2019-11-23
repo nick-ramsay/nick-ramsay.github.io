@@ -90,6 +90,10 @@ a:focus {
     color: #cd7f32;
 }
 
+.introLinks {
+    color: white;
+}
+
 
 p {
     line-height: 32px;

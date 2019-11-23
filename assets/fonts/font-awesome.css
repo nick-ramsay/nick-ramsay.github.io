@@ -801,7 +801,7 @@
 .fa-envelope:before {
   content: "\f0e0";
 }
-.fa-linkedin:before {
+.fa-linkedin {
   content: "\f0e1";
 }
 .fa-rotate-left:before,
