@@ -95,9 +95,9 @@ a:focus {
 }
 
 
-p {
+/*p {
     line-height: 32px;
-}
+}*/
 
 ul,
 li {
@@ -722,8 +722,9 @@ ul.work li.active {
     justify-content: center;
     border: white solid 2px;
     border-radius: 4px;
-    padding: 3px;
+    padding: 4px;
     font-size: 12px;
+    
 }
 
 .linkBtn:hover {

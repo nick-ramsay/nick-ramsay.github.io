@@ -28,7 +28,7 @@
 }
 
 .grid figure figcaption {
-	padding: 2em;
+	padding: 1em;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 1.25em;
@@ -163,13 +163,13 @@ figure.effect-ruby {
 figure.effect-ruby:hover img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
-	opacity:0.25;
+	-webkit-transform: scale(1.0); /*Disabled by setting to 1, zooms into image on hover*/
+	transform: scale(1.00); /*Disabled by setting to 1, zooms into image on hover*/
+	opacity:0.65;
 }
 
 figure.effect-ruby img {
-	opacity: 0.5;
+	opacity: 0.4;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
