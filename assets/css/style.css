@@ -87,7 +87,7 @@ a:focus {
 }
 
 #cv:hover, .contactLinks:hover {
-    color: #cd7f32;
+    color: #0aa200;
 }
 
 .introLinks {
@@ -718,9 +718,9 @@ ul.work li.active {
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     color: white;
-    background-color: black;
+    background-color: #0aa200;
     justify-content: center;
-    border: white solid 2px;
+    border: #0aa200 solid 2px;
     border-radius: 4px;
     padding: 4px;
     font-size: 12px;
@@ -728,8 +728,9 @@ ul.work li.active {
 }
 
 .linkBtn:hover {
-    color: #cd7f32;
-    border-color: #cd7f32; 
+    color: #0aa200;
+    border-color: #0aa200;
+    background-color: white; 
 
 /*.work .item:hover figure.effect-ruby h2 {
     opacity: 1;
