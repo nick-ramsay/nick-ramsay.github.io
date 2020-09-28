@@ -9,7 +9,16 @@ Version      : 1.0
 
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+@media only screen and (min-width: 992px) and (max-width: 1367px) {
+    .work figure.effect-ruby h2 {
+        margin-top: 0%;
+        font-size: 18px;
+    }
+
+    .work figure.effect-ruby p {
+        font-size: 12px;
+    }
+}
 
 
 /* Tablet Layout: 768px. */
@@ -41,7 +50,14 @@ Version      : 1.0
         padding-top: 0px;
         margin-top: 30px;
     }
+    .work figure.effect-ruby h2 {
+        margin-top: 5%;
+        font-size: 20px;
+    }
 
+    .work figure.effect-ruby p {
+        font-size: 14px;
+    }
 }
 
 
@@ -57,9 +73,13 @@ Version      : 1.0
         padding: .5em;
     }
     
-    .work figure.effect-ruby h2 {
-        margin-top: 0;
-        font-size: 18px;
+    
+
+    @media (max-width: 320px) {
+        .work figure.effect-ruby h2 {
+            margin-top: 0%;
+            font-size: 18px;
+        }
     }
 
     .site-header .navbar-collapse {

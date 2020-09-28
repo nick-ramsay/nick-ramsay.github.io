@@ -87,7 +87,7 @@ a:focus {
 }
 
 #cv:hover, .contactLinks:hover {
-    color: #0aa200;
+    color: gold;
 }
 
 .introLinks {
@@ -685,7 +685,7 @@ ul.work li.active {
 }
 
 .work figure.effect-ruby h2 {
-    margin-top: 20%;
+    margin-top: 10%;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     font-size: 30px;
@@ -717,20 +717,20 @@ ul.work li.active {
     -webkit-transition: all 0.4s;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    color: white;
-    background-color: #0aa200;
+    color: black;
+    background-color: gold;
     justify-content: center;
-    border: #0aa200 solid 2px;
-    border-radius: 4px;
+    border: gold solid 2px;
     padding: 4px;
     font-size: 12px;
     
 }
 
-.linkBtn:hover {
-    color: #0aa200;
-    border-color: #0aa200;
-    background-color: white; 
+.linkBtn:hover, .linkBtn:focus {
+    background-color: goldenrod;
+    color: black; 
+    border-color: goldenrod
+}
 
 /*.work .item:hover figure.effect-ruby h2 {
     opacity: 1;
