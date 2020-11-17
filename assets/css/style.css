@@ -76,7 +76,7 @@ a:focus {
 }
 
 .cv-row {
-    margin: 10px 0 0 0;
+    margin: 12px 0 0 0;
 }
 
 
@@ -96,8 +96,8 @@ a:focus {
 }
 
 #cv {
-    border: 2px solid black;
-    padding: 3px;
+    border: 1px solid black;
+    padding: 4px 6px;
     font-size: 12px;
 }
 
