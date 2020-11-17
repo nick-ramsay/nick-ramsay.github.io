@@ -75,6 +75,11 @@ a:focus {
     text-decoration: none;
 }
 
+.cv-row {
+    margin: 10px 0 0 0;
+}
+
+
 #cv, .contactLinks {
     text-decoration: none;
     text-align: center;
@@ -86,8 +91,21 @@ a:focus {
     justify-content: center
 }
 
-#cv:hover, .contactLinks:hover {
+.contactLinks:hover {
     color: gold;
+}
+
+#cv {
+    border: 2px solid black;
+    padding: 3px;
+    font-size: 12px;
+}
+
+#cv:hover, #cv:focus {
+    border-color: gold;
+    background-color: gold;
+    color: black;
+
 }
 
 .introLinks {
