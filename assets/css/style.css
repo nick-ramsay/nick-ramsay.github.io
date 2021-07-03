@@ -73,21 +73,30 @@ a:focus {
   text-decoration: none;
 }
 
-#cv,
-.contactLinks {
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition: all 0.4s;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  color: #000;
-  font-weight: bold;
-  justify-content: center;
+.cv-row {
+    margin: 12px 0 0 0;
 }
 
-#cv:hover,
+
+#cv, .contactLinks {
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: all 0.4s;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #000;
+    font-weight: bold;
+    justify-content: center
+}
+
 .contactLinks:hover {
   color: #008000;
+}
+#cv:hover, #cv:focus {
+    border-color: gold;
+    background-color: gold;
+    color: black;
+
 }
 
 .introLinks {
