@@ -93,9 +93,7 @@ a:focus {
   color: #008000;
 }
 #cv:hover, #cv:focus {
-    border-color: gold;
-    background-color: gold;
-    color: black;
+    color: #008000;
 
 }
 
@@ -720,19 +718,19 @@ ul.work li.active {
   -webkit-transition: all 0.4s;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  color: black;
-  background-color: gold;
+  color: white;
+  background-color: #006400;
   justify-content: center;
-  border: gold solid 2px;
+  border: #006400 solid 2px;
   padding: 4px;
   font-size: 12px;
 }
 
 .linkBtn:hover,
 .linkBtn:focus {
-  background-color: goldenrod;
-  color: black;
-  border-color: goldenrod;
+  background-color: #008000;
+  color: white;
+  border-color: #008000;
 }
 
 /*.work .item:hover figure.effect-ruby h2 {
@@ -1345,5 +1343,5 @@ ul.blog_pagination li a:hover {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #008000;
+  background:#008000;
 }
