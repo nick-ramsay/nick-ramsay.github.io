@@ -59,6 +59,12 @@ a {
   color: #000;
 }
 
+code {
+  color: lime; 
+  background-color: black;
+  text-transform: lowercase;
+}
+
 img {
   width: 100%;
 }
